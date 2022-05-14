@@ -1,0 +1,135 @@
+{
+  "name": "VideoEditing",
+  "version": "0.1.46",
+  "summary": "VideoEditing",
+  "homepage": "https://codeup.aliyun.com/61c1c178fa282c88e103c790/client_ios_3part/videoediting",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "license": "MIT",
+  "authors": {
+    "VideoEditing": ""
+  },
+  "source": {
+    "git": "git@codeup.aliyun.com:61c1c178fa282c88e103c790/client_ios_3part/videoediting.git",
+    "tag": "0.1.46"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "frameworks": [
+    "AVFoundation",
+    "Foundation",
+    "UIKit",
+    "CoreTelephony",
+    "AudioToolbox",
+    "CoreMotion",
+    "MediaToolbox",
+    "GLKit",
+    "OpenGLES",
+    "VideoToolbox",
+    "CoreMedia",
+    "MobileCoreServices",
+    "Accelerate"
+  ],
+  "weak_frameworks": [
+    "Metal",
+    "MetalPerformanceShaders",
+    "Photos",
+    "CoreML"
+  ],
+  "libraries": [
+    "xml2",
+    "iconv",
+    "compression",
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "Masonry": [
+      ">=1.1.0"
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "NLEPlatform": [
+
+    ],
+    "TTVideoEditor": [
+
+    ],
+    "PocketSVG": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "KVOController": [
+
+    ],
+    "SGPagingView": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "DVEInject": [
+
+    ],
+    "SSZipArchive": [
+
+    ],
+    "YCDownloadSession": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "DVETrackKit": [
+
+    ],
+    "MicrosoftCognitiveServicesSpeech-iOS": [
+
+    ],
+    "MusicLibrary": [
+
+    ],
+    "PhotoAlbum": [
+
+    ],
+    "BaseModule": [
+
+    ],
+    "FDFullscreenPopGesture": [
+
+    ]
+  },
+  "prefix_header_file": "VideoEditing/Classes/DVEKit/UIKit/NLEEditor-prefix.pch",
+  "default_subspecs": "source",
+  "resource_bundles": {
+    "VideoEditing": [
+      "VideoEditing/Assets/*.xcassets",
+      "VideoEditing/Assets/styles/**",
+      "VideoEditing/Assets/lottie/**",
+      "VideoEditing/Assets/**/*.bundle"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64",
+    "OTHER_LDFLAGS[sdk=iphonesimulator*]": ""
+  },
+  "subspecs": [
+    {
+      "name": "source",
+      "source_files": "VideoEditing/Classes/**/**/**/**/*.{h,m}"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+module Pods_swift_mix_oc {
+  umbrella header "Pods-swift_mix_oc-umbrella.h"
+
+  export *
+  module * { export * }
+}

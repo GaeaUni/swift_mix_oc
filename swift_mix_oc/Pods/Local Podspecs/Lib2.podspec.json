@@ -1,0 +1,26 @@
+{
+  "name": "Lib2",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "Test Pod",
+  "authors": {
+    "shulong": "shulong@kkworld.com"
+  },
+  "homepage": "shulong",
+  "source": {
+    "http": "http://127.0.0.1:8080/Lib2.zip"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Classes/*.{h,m,swift}",
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  },
+  "requires_arc": true,
+  "swift_version": "5.0"
+}

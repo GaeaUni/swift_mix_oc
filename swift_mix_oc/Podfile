@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+install! 'cocoapods', generate_multiple_pod_projects: true
+platform :ios, '11.0'
+inhibit_all_warnings!
+#use_frameworks!:linkage => :static
+use_modular_headers!
+target 'swift_mix_oc' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  
+  pod 'Lib', :path => '../Lib'
+  pod 'Lib2',:path=>'../Lib2'
+
+  # Pods for swift_mix_oc
+
+end
